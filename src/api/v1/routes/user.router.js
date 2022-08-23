@@ -20,24 +20,7 @@ router.get('/', userController.getAllUsers);
  *         content:
  *           application/json:
  *             schema:
- *               type: object
- *               properties:
- *                 results:
- *                   type: array
- *                   items:
- *                     $ref: '#/components/schemas/User'
- *                 page:
- *                   type: integer
- *                   example: 1
- *                 limit:
- *                   type: integer
- *                   example: 10
- *                 totalPages:
- *                   type: integer
- *                   example: 1
- *                 totalResults:
- *                   type: integer
- *                   example: 1
+ *               $ref: '#/components/schemas/User'
  *       "401":
  *         $ref: '#/components/responses/Unauthorized'
  *       "403":
