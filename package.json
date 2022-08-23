@@ -24,7 +24,7 @@
     "swagger-ui-express": "^4.5.0"
   },
   "devDependencies": {
-    "csfa": "^1.1.0",
+    "csfa": "^1.1.1",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
